@@ -4,24 +4,20 @@ services:
   train:
     image: madhavikollya/dockerprojecttrain:latest
     ports:
-      - "80:80"
-    deploy: 
-        replicas:3
+      - 80:80
+    replicas: 3
   dth:
     image: madhavikollya/dockerprojectdth:latest
     ports:
-      - "81:80"
-    deploy: 
-        replicas:3
+      - 81:80
+    replicas: 3
   movies:
     image: madhavikollya/dockerprojectmovies:latest
     ports:
-      - "82:80"
-    deploy: 
-        replicas:3
+      - 82:80
+    replicas: 3
   recharge:
     image: madhavikollya/dockerprojectrecharge:latest
     ports:
-      - "83:80"
-    deploy: 
-        replicas:3
+      - 83:80
+    replicas: 3
