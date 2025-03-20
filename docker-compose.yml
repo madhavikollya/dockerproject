@@ -6,22 +6,22 @@ services:
     ports:
       - "80:80"
     deploy:  
-      replicas: 2
+      replicas: 4
   dth:
     image: madhavikollya/dockerprojectdth:latest
     ports:
       - "81:80"
     deploy:  
-      replicas: 2
+      replicas: 4
   movies:
     image: madhavikollya/dockerprojectmovies:latest
     ports:
       - "82:80"
     deploy:  
-      replicas: 2
+      replicas: 4
   recharge:
     image: madhavikollya/dockerprojectrecharge:latest
     ports:
       - "83:80"
     deploy:
-      replicas: 2
+      replicas: 4
