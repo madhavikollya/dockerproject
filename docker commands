@@ -1,0 +1,9 @@
+docker pull ubuntu - to pull ubuntu image from hub/registry
+docker images - to check images
+df-h - to check the size of image
+docker run ubuntu - to create container (will be in exit state)
+docker run -it --name madhu ubuntu - to give name to container and will be in running state
+docker run -itd --name madhu ubuntu - it will give name to the container, if we come out of the container will still be in up state
+docker attach madhu - to go into container
+NOW CREATE SOME FILES AND INSTALL PACKAGES
+docker commit madhu image1 - all the files created in madhu (container) are now converted into image
